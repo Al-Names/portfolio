@@ -9,7 +9,7 @@ class Portfolio extends Component {
             <div className=" container wasder-blurb ">
 
 
-                <p>In addition to this simple little website- built on react with a few a other "simple" tricks; there are a lot more personal projects I have done over the years that I would haveloved for you to see.</p>
+                <p>In addition to this simple little website- built on react with a few a other "simple" tricks; there are a lot more personal projects I have done over the years that I would have loved for you to see.</p>
                 <p>For now however, I'd greatly appreciate you taking the time to go over my CodePen and my GitHub if you're interested.</p>
                 <div className="social-media grid-case">
                     <div className="row">

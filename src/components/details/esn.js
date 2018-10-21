@@ -12,6 +12,7 @@ class CircleY extends Component {
             <div className="container wasder-blurb">
             <div className="wasder-heading">
                 <h1>Erasmus Student Network</h1>
+                <p><a href="http://herts.esnuk.org" target="_blank" className="App-link">herts.esnuk.org</a></p>
                 <h5>July 2015 - October 2016</h5>
                 <hr/>
             </div>

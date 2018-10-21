@@ -10,6 +10,7 @@ class EHealth extends Component {
         <div className="wasder-heading">
             <h1>eHealth4Everyone
             </h1>
+            <p><a href="https://ehealth4everyone.com" target="_blank" className="App-link">www.ehealth4everyone.com</a></p>
             <h5>October 2016 - February 2018</h5>
             <hr/>
         </div>

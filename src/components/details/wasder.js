@@ -9,6 +9,7 @@ class Wasder extends Component {
         <div className="container wasder-blurb">
             <div className="wasder-heading">
                 <h1>Wasder AB</h1>
+                <p><a href="https://www.wasder.co" target="_blank" className="App-link">www.wasder.co</a></p>
                 <h5>March - September 2018</h5>
                 <hr/>
             </div>
