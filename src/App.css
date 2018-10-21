@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  padding: 10px;
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.title{
+  
+  font-size: 140px
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +23,39 @@
   color: #61dafb;
 }
 
+#nav{
+     display: inline-block;
+     text-align: center;
+     padding: 0;
+     list-style: none;
+     margin-left: 0px;
+}
+
+#nav li  {
+   display: inline-block;
+   text-align:center;
+}
+
+#nav li  a{
+  color: black 
+}
+
+.nav>li> a:hover { 
+  color:  #61dafb !important;
+  text-decoration: underline !important;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.portfolio-links{
+  color:#61dafb !important;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -29,4 +63,159 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grid-item{border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.small-grid-item{border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dotted #61dafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #61dafb
+
+}
+.social-grid-item{border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #61dafb
+
+}
+.ref-grid-item{border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.refs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.grid-case{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.year{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: #61dafb;
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border: 2px dotted #61dafb;
+  border-radius: 100%
+}
+.tech-stack{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  margin: 5px;
+}
+/* wasder styling */
+.wasder-blurb{
+  text-align:justify;
+  max-width: 700px;
+  
+}
+.other-tasks{
+  text-align: left !important;
+
+}
+
+.wasder-stack{
+  text-align: left !important;
+}
+
+.via {
+  font-size: 15px;
+}
+
+p{
+  font-size: medium;
+}
+
+.banner-text{
+  opacity: 0.8;
+  font-size: 100px;
+  font-family: "Audiowide";
+  color: white !important
+}
+.saeed{
+  font-size: 30px;
+  font-weight: 300 !important;
+  color: white
+}
+
+.x{
+  font-family: "indie flower";
+  color: #cc7979 !important;
+}
+
+.jumbotron{
+  background-color: #61dafb;
+  background-image: url(./banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px 300px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: inset 0 0 0 1000px rgba(97,218,251,.5);
+  
+}
+/* .filter{
+  background-color: #61dafb;
+  opacity: 0.7;
+   top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+#X{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+  font-family: "indie flower";
+  color: #cc7979
+
 }
