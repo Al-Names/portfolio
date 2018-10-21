@@ -37,16 +37,16 @@ class App extends Component {
               <Route path='/about' exact component={About} />
               <Route path='/resume' exact component={Resume} />
               <Route path='/resume/wasder' exact component={Wasder} />
-              {/* <Route path='/resume/circley' exact component={CircleY}/> */}
+              <Route path='/resume/circley' exact component={CircleY} />
               <Route path='/resume/esn' exact component={ESN} />
               <Route path='/resume/eHealth4Everyone' component={EHealth} />
               <Route path='/portfolio' component={Portfolio} />
               <Route path='/contact' component={Contact} />
             </Switch>
           </div>
-          
+
         </BrowserRouter>
-        <X/>
+        <X />
       </div>
     );
   }

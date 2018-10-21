@@ -30,9 +30,9 @@ class Resume extends Component {
                                 </Link>
                             </div>
                             <div className="grid-item col-md-4" style={hashtag}>
-                                {/* <Link to="/resume/circley" className="portfolio-links">   */}
+                                <Link to="/resume/circley" className="portfolio-links">  
                                 <p>Circle Y</p>
-                                {/* </Link> */}
+                                </Link>
                             </div>
                             <div className="grid-item col-md-4">
                                 <Link to="/resume/eHealth4everyone" className="portfolio-links">
