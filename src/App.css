@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   height: 100%;
+  
 }
 
 .title{
@@ -77,6 +78,18 @@
   justify-content: center;
 
 }
+.empty-grid-item{border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
 .small-grid-item{border-radius: 100%;
   height: 100px;
   width: 100px;
@@ -102,6 +115,19 @@
   justify-content: center;
   color: #61dafb
 
+}
+.mini-social-grid-item{border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin: 10px;
+  border: 2px dotted black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #61dafb;
+  float: right;
 }
 .ref-grid-item{border-radius: 100%;
   height: 200px;
@@ -218,4 +244,36 @@ p{
   font-family: "indie flower";
   color: #cc7979
 
+}
+
+.thumbnail{
+  
+  width: 40%;
+  height: 50px;
+ 
+}
+.tabs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.tabs2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 10px
+}
+
+.article{
+  width: 40%;
+  height: 50px
+}
+
+.highlights{
+  padding: 20px
 }

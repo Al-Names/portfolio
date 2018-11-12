@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import Autism from './autism'
+import Charity from './charity'
 
 const hashtag = {
     color: '#61dafb'
+};
+
+const spacer = {
+    height: '180px'
 };
 
 
@@ -10,6 +16,7 @@ class About extends Component {
 
     render() {
         return (
+            <div>
             <div className="container-fluid wasder-blurb">
                 <h1>Welcome</h1>
                 <hr />
@@ -40,7 +47,19 @@ class About extends Component {
                 </p>
                     <h4>Al-M</h4>
                 </div>
+                <hr/>
 
+            </div>
+            <h4>Few things that matter to me... and should to you too.</h4>
+                <div>
+                    <h4>Autism and Employment</h4>
+                    <Autism />
+                </div>
+                <div style={spacer}></div>
+                <div>
+                    <h4>Code, Charity and The Future</h4>
+                    <Charity/>
+                </div>
             </div>
         )
     }

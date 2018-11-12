@@ -51,15 +51,15 @@ class Resume extends Component {
                                     <p>Erasmus Student Network</p>
                                 </Link>
                             </div>
-                            <div className="grid-item col-md-4" style={hashtag}>
+                            <div className="empty-grid-item col-md-4" style={hashtag}>
 
-                                <p>...</p>
+                                
 
 
                             </div>
-                            <div className="grid-item col-md-4" style={hashtag}>
+                            <div className="empty-grid-item col-md-4" style={hashtag}>
 
-                                <p>...</p>
+                                
 
                             </div>
                         </div>

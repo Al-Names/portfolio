@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20181023T125633Z
+UID:calendly-41536911
+DTSTART:20181025T113000Z
+DTEND:20181025T120000Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: Skype interview with Dora @bunq\nEvent Description:
+  Skype interview to kickstart your bunq career\nDate & Time: 12:30pm - 01:
+ 00pm (West Africa Time) on Thursday\, October 25\, 2018\n\nSkype name\n: m
+ ustapha.saeed\nPhone number : +2347064877883\nRole you are interviewing fo
+ r: I applied for Frontend as well as Open\n\nNeed to make changes to this 
+ event?\nCancel: https://calendly.com/cancellations/DHBQKZXKYCZOSCZZ\nResch
+ edule: https://calendly.com/reschedulings/DHBQKZXKYCZOSCZZ\n
+LOCATION:
+SUMMARY:Skype interview with Dora @bunq with Dora Wagner
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
