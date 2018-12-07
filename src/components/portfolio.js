@@ -33,9 +33,9 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <p>In the meantime... here are links to some of my favorites.</p>
+
         <p>Thank you!</p>
-        <p>Hope you like them!</p>
+
         <hr />
         <Favorites />
       </div>
