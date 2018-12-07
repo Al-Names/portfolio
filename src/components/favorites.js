@@ -17,7 +17,7 @@ class Favorites extends Component {
       "An innovative and beautiful landing page design."
     ],
     link: [
-      "https://github.com/Al-Names/KonoSuba-Live",
+      "https://loving-shirley-5620b7.netlify.com",
       "https://github.com/Al-Names/react-contact-manager",
       "https://sleepy-bohr-8e5cae.netlify.com",
       "https://codepen.io/Names/pen/GvBryP",
