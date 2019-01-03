@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Favorites extends Component {
   state = {
     title: [
+      "MovieDB",
       "KonoSuba Live!",
       "React Contact Manager",
       "React Journal",
@@ -10,6 +11,7 @@ class Favorites extends Component {
       "Onyx Hive"
     ],
     detail: [
+      "Movie database app with simple CRUD collection attached. Built with React on Rails- made for RiskMethods interview process.",
       "Fictional KonoSuba Live event and ticket sales lading page!",
       "Contact manager using react",
       "A simple journal, diary or notepad built on react on a firebase back-end.",
@@ -17,6 +19,7 @@ class Favorites extends Component {
       "An innovative and beautiful landing page design."
     ],
     link: [
+      "https://agile-escarpment-18965.herokuapp.com",
       "https://loving-shirley-5620b7.netlify.com",
       "https://github.com/Al-Names/react-contact-manager",
       "https://sleepy-bohr-8e5cae.netlify.com",
